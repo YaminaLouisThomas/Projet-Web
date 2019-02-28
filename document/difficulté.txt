@@ -1,0 +1,4 @@
+difficulté a comprendre le texte
+pas encore de responsive, ce qui pourrai creer des problemes 
+de dimension sur votre pc. Mais le responsive sera fait pour
+le prochain rendu.
