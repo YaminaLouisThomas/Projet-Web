@@ -1,0 +1,515 @@
+body{
+    margin-top: 100px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(184, 184, 184);
+}
+/* ----------------------------------------PARTIE1--------------------------------------------- */
+.partie1{
+    height: 80px;
+    width: 80%;
+    background-color: black;
+    margin: auto;
+}
+
+.prenom{
+    color: white;
+    font-size: 2.3em;
+    margin-top: -82px;
+    margin-left: 180px;
+    
+}
+
+.nom{
+    color: red;
+    font-size: 2.3em;
+    margin-top: -50px;
+    margin-left: 260px;
+}
+/* ----------------------------------------PARTIE2--------------------------------------------- */
+.partie2{
+    height: 200px;
+    width: 80%;
+    background-color: white;
+    margin: auto;
+    margin-top: -31px;
+}
+
+.competence{
+    color: #91283B;
+    padding-top: 20px;
+    margin-left: 50px;
+    font-size: 1.2em;
+}
+
+.trait{
+    margin-left: 30px;
+    height: 0.5px;
+    width: 60%;
+    background-color: #91283B;
+}
+
+.text_competence {
+    margin-top: 1%;
+    margin-left: 50px;
+}
+/* ----------------------------------------PARTIE3--------------------------------------------- */
+.partie3 {
+    height: 750px;
+    width: 80%;
+    background-color: rgb(219, 218, 218);
+    margin: auto;
+    margin-top: -31px;
+}
+
+.experience{
+    padding-top: 20px;
+    margin-left: 50px;
+    font-size: 1.2em;
+    color: #91283B;
+}
+
+.text_experience {
+    margin-top: 1%;
+    margin-left: 50px;
+}
+
+.trait2 {
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    height: 1px;
+    width: 60%;
+    background-color: #91283B;
+}
+
+.titre1{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.date{
+    margin-left: 0px;
+    margin-top: 20px;
+    color: rgb(145, 145, 145)
+}
+
+.titre2{
+    margin-left: 50px;
+    margin-top: 120px;
+    
+}
+
+.date2{
+    margin-left: 0px;
+    margin-top: 120px;
+    color: rgb(145, 145, 145)
+}
+
+.text_experience2{
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.titre3{
+    margin-left: 50px; 
+}
+
+.text_experience3{
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.date3{
+    margin-left: 0px;
+    margin-top: 120px;
+    color: rgb(145, 145, 145)
+}
+
+.photo{
+    position: absolute;
+    height: 150px;
+    width: 100px;
+    border-radius: 10%;
+    left: 1100px;
+    top: 120px
+}
+
+
+.titre4{
+    padding-left: 50px;
+    padding-top:  20px;
+}
+
+.text_experience4{
+    margin-left: 50px;
+}
+
+.date4{
+    margin-left: 0px;
+    margin-top: 120px;
+    color: rgb(145, 145, 145)
+}
+/* ----------------------------------------PARTIE1--------------------------------------------- */
+.partie4{
+    height: 650px;
+    width: 80%;
+    background-color: white;
+    margin: auto;
+    margin-top: -31px;
+}
+
+.specifique{
+    padding-top: 20px;
+    margin-left: 50px;
+    font-size: 1.2em;
+    color: #91283B;
+}
+
+.trait3{
+    margin-top: 20px;
+    margin-left: 30px;
+    height: 1px;
+    width: 60%;
+    background-color: #91283B;
+}
+
+.python{
+    height: 10px;
+    width: 500px;
+    margin-top: 80px;
+    margin-left: 50px;
+    background-color: rgb(212, 212, 212);
+    border-radius: 10px;
+}
+
+.objectif{
+    height: 10px;
+    width: 150px;
+    margin-top: 80px;
+    background-color: red;;
+    border-radius: 10px;
+}
+
+.pourcent{
+    padding-left: 470px;
+    margin-top: -30px
+}
+
+.comp{
+    font-weight: bold;
+    margin-top: -40px;
+}
+
+.langage_c{
+    height: 10px;
+    width: 500px;
+    margin-top: 30px;
+    margin-left: 50px;
+    background-color: rgb(212, 212, 212);
+    border-radius: 10px;
+}
+
+.objectif2{
+    height: 10px;
+    width: 250px;
+    margin-top: 80px;
+    background-color: green;
+    border-radius: 10px;
+}
+
+.pourcent2{
+    padding-left: 470px;
+    margin-top: -30px
+}
+
+.comp2{
+    font-weight: bold;
+    margin-top: -40px;
+}
+
+.ccna{
+    height: 10px;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: rgb(212, 212, 212);
+    border-radius: 10px;
+}
+
+.objectif3{
+    height: 10px;
+    width: 350px;
+    margin-top: 80px;
+    background-color: blue;
+    border-radius: 10px;
+}
+
+.pourcent3{
+    padding-left: 470px;
+    margin-top: -30px
+}
+
+.comp3{
+    font-weight: bold;
+    margin-top: -40px;
+}
+
+
+.linux{
+    height: 10px;
+    width: 500px;
+    margin-top: -271px;
+    margin-left: 650px;
+    background-color: rgb(212, 212, 212);
+    border-radius: 10px;
+}
+
+.objectif4{
+    height: 10px;
+    width: 250px;
+    margin-top: 80px;
+    background-color: rgba(255, 255, 0, 0.719);
+    border-radius: 10px;
+}
+
+.pourcent4{
+    padding-left: 470px;
+    margin-top: -30px
+}
+
+.comp4{
+    font-weight: bold;
+    margin-top: -40px;
+}
+
+.window{
+    height: 10px;
+    width: 500px;
+    margin-top: 0px;
+    margin-left: 650px;
+    background-color: rgb(212, 212, 212);
+    border-radius: 10px;
+}
+
+.objectif5{
+    height: 10px;
+    width: 400px;
+    margin-top: 80px;
+    background-color: rgba(255, 0, 200, 0.719);
+    border-radius: 10px;
+}
+
+.pourcent5{
+    padding-left: 470px;
+    margin-top: -30px
+}
+
+.comp5{
+    font-weight: bold;
+    margin-top: -40px;
+}
+
+.htmll{
+    height: 10px;
+    width: 500px;
+    margin-top: 0px;
+    margin-left: 650px;
+    background-color: rgb(212, 212, 212);
+    border-radius: 10px;
+}
+
+.objectif6{
+    height: 10px;
+    width: 450px;
+    margin-top: 80px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.pourcent6{
+    padding-left: 470px;
+    margin-top: -30px
+}
+
+.comp6{
+    font-weight: bold;
+    margin-top: -40px;
+}
+
+.langue{
+    padding-top: 50px;
+    margin-left: 50px;
+    font-size: 1.2em;
+    color: #91283B;
+}
+
+.trait4{
+    margin-top: 20px;
+    margin-left: 30px;
+    height: 1px;
+    width: 60%;
+    background-color: #91283B;
+}
+
+.anglais{
+    height: 10px;
+    width: 500px;
+    margin-top: 0px;
+    margin-left: 50px;
+    background-color: rgb(212, 212, 212);
+    border-radius: 10px;
+}
+
+.objectif7{
+    height: 10px;
+    width: 200px;
+    margin-top: 80px;
+    background-color: rgb(0, 227, 243);
+    border-radius: 10px;
+}
+
+.pourcent7{
+    padding-left: 470px;
+    margin-top: -30px
+}
+
+.comp7{
+    font-weight: bold;
+    margin-top: -40px;
+}
+
+.france{
+    margin-top: 0px;
+    margin-left: 650px;
+    
+}
+
+.objectif8{
+    height: 10px;
+    width: 500px;
+    margin-top: -10px;
+    background-color: rgb(0, 243, 0);
+    border-radius: 10px;
+}
+
+.pourcent8{
+    padding-left: 470px;
+    margin-top: -30px
+}
+
+.comp8{
+    font-weight: bold;
+    margin-top: -40px;
+}
+
+
+.espagnol{
+    height: 10px;
+    width: 500px;
+    margin-top: 80px;
+    margin-left: 50px;
+    background-color: rgb(212, 212, 212);
+    border-radius: 10px;
+}
+
+.objectif9{
+    height: 10px;
+    width: 50px;
+    margin-top: -10px;
+    background-color: rgb(243, 186, 0);
+    border-radius: 10px;
+}
+
+.pourcent9{
+    padding-left: 470px;
+    margin-top: -30px
+}
+
+.comp9{
+    font-weight: bold;
+    margin-top: -40px;
+}
+/* ----------------------------------------PARTIE1--------------------------------------------- */
+
+.partie5{
+    height: 400px;
+    width: 80%;
+    background-color: rgb(229, 217, 143);
+    margin: auto;
+}
+
+.formation{
+    padding-top: 30px;
+    margin-left: 50px;
+    font-size: 1.2em;
+    color: #91283B;
+}
+
+.trait5{
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    height: 1px;
+    width: 60%;
+    background-color: #91283B;
+}
+
+.bac{
+    margin-left: 50px; 
+}
+
+.text_experience5{
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.date5{
+    margin-left: 0px;
+    margin-top: 120px;
+    color: rgb(145, 145, 145)
+}
+
+.bachelor{
+    margin-left: 50px; 
+}
+
+.text_experience6{
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.date6{
+    margin-left: 0px;
+    margin-top: 120px;
+    color: rgb(145, 145, 145)
+}
+
+
+.contact{
+    height: 200px;
+    width: 80%;
+    background-color: black;
+    margin: auto;
+    margin-top: -50px;
+    color: white;
+}
+
+.titre_contact{
+    margin-left: 50px;
+    padding-top: 80px;;
+    font-size: 3em;
+    margin-bottom: -100px;
+}
+
+.adresse, .mobile, .email{
+    margin-left: 800px; 
+}
+
+.contact a img{
+    height: 40px;
+    width: 40px;
+    margin-left: 800px; 
+    margin-bottom: 10px;
+}
+
