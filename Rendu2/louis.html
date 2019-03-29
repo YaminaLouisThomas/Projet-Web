@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Louis</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="CSS/portfolio.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="CSS/louis.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" async></script>
+    <script src="JS/burgerCV.js" async></script>
+</head>
+<body>
+       <img class="burger" onclick="burger()" src="image/icons8-menu-filled-50.png" alt="">
+    <aside>
+        <nav>
+            <img src="image/IMG_3815.JPG" alt="">
+            <a href="#home"><i class="material-icons md-36">home</i>
+            <p>Accueil</p>
+            </a>
+
+            <a href="#about"><i class="material-icons md-36">person</i>
+            <p>A Propos</p>
+            </a>
+
+            <a href="#projets"><i class="material-icons md-36">image</i>
+            <p>Projets</p>
+            </a>
+
+            <a href="#contact"><i class="material-icons md-36">mail</i>
+            <p>Contact</p>
+            </a>
+
+            <a href="Projet_Web.html"><i class = "material-icons"> perm_media</i>
+                <p>Admin</p>
+                </a>
+        </nav>
+    </aside>
+
+       
+
+        <main>
+            <header class="home" id="home"><br><br>
+            <h1>Je suis Louis ARDILLY</h1>
+            <h5>B1 INGESUP</h5>
+            <img src="image/IMG_3815.JPG" alt="">
+            </header>
+        </main>
+
+        <section class="about" id="about">
+            <h2>A propos de moi</h2>
+            <p>
+                <span>Bonjour, je suis Louis</span> Je suis étudiant en 1er année d'informatique, Je suis interessé par le dev. 
+            </p>
+            <p>
+                Je n'es pas encore d'experience dans l'informatique, mais j'ai deja participé a la mise en place d'un systeme de puce électronique pour les vêtement de travail chez ELIS. 
+               </p>
+
+            <h3>Mes Compétences</h3>
+            <p>Python</p>
+            <div class="container">
+                <div class="competence python">100%</div>
+            </div>
+
+            <p>Langage C</p>
+            <div class="container">
+                <div class="competence c">90%</div>
+            </div>
+
+            <p>Linux</p>
+            <div class="container">
+                <div class="competence linux">60%</div>
+            </div>
+
+            <p>Windows Serveur</p>
+            <div class="container">
+                <div class="competence windows">80%</div>
+            </div>
+
+            <p>CCNA 1</p>
+            <div class="container">
+                <div class="competence ccna">40%</div>
+            </div>
+
+            <p>HTML/CSS</p>
+            <div class="container">
+                <div class="competence web">80%</div>
+            </div>
+
+            <p>JavaScript</p>
+            <div class="container">
+                <div class="competence javascript">60%</div>
+            </div>
+        </section>
+
+        <section class="projets" id="projets">
+            <h2>Projets</h2>
+            <div class="tout">
+                <div class="col">
+                    <img src="http://www.waouo.com/wp-content/uploads/2011/09/jeudedames.jpg" alt="">
+                    <h3>Jeu de Dame - Python</h3>
+                </div>
+
+                <div class="col">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/58/Aper%C3%A7u_de_Z_Quest.PNG" alt="">
+                    <h3>Jeu de RPG textuel - Langage C</h3>
+                </div>
+
+                <div class="col">
+                    <img src="http://media.topito.com/wp-content/uploads/2013/06/tshirt-foot-600x324.jpg" alt="">
+                    <h3>Site de vente de tee shirt - HTML/CSS</h3>
+                </div>
+
+                <div class="col">
+                    <img src="https://cdn-images-1.medium.com/max/2600/1*jjYC9tuf4C3HkHCP5PcKTA.jpeg" alt="">
+                    <h3>Site de classement musique API - JavaScript</h3>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="contact" id="contact">
+                <form action="/ma-page-de-traitement" method="post">
+            <div>
+              <label for="name">Nom :</label>
+              <input type="text" id="name" name="user_name" />
+            <div>
+            <div>
+              <label for="mail">E-mail :</label>
+              <input type="email" id="mail" name="user_email" />
+            </div>
+            <div>
+              <label for="msg">Message:</label>
+              <textarea id="msg" name="user_message"></textarea>
+            </div>
+            <div class="button">
+                    <button type="submit">Envoyer le message</button>
+                </div>
+          
+            </div>
+        </form>
+
+        </section>
+
+
+        <footer>
+            <section class="top">
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-github"></i></a>
+
+            </section>
+
+            <section class="bot">
+                <p>&copy 2019 | All rights reserved</p>
+
+            </section>
+        </footer>
+</body>
+</html>
