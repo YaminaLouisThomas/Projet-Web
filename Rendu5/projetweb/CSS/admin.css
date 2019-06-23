@@ -1,0 +1,286 @@
+body{
+    background-color: rgba(199, 199, 199, 0.507);
+}
+
+
+h1{
+    padding-left: 20px;
+}
+
+.wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.google{
+    height: 14%;
+    width: 7%;
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    z-index: 1;
+}
+
+.blanc2{
+    height: 14%;
+    width: 17%;
+    position: absolute;
+    background-color: white;
+    top: 15%;
+    left: 26.8%;
+    z-index: 2;
+}
+
+.jaime{
+    position: absolute;
+    top: 16%;
+    left: 28%;
+    z-index: 3;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+.nb{
+    position: absolute;
+    top: 19%;
+    left: 28%;
+    z-index: 3;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-weight: bold;
+}
+.partie1{
+    margin: 200px;
+}
+
+.vente{
+    height: 14%;
+    width: 7%;
+    position: absolute;
+    top: 15%;
+    left: 46%;
+    z-index: 1;
+    background-color: green;
+}
+
+.blanc3{
+    height: 14%;
+    width: 17%;
+    position: absolute;
+    background-color: white;
+    top: 15%;
+    left: 52.9%;
+    z-index: 2;
+}
+
+.ventes{
+    position: absolute;
+    top: 14%;
+    left: 54%;
+    z-index: 3;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+.chiffre{
+    position: absolute;
+    top: 17%;
+    left: 54%;
+    z-index: 3;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-weight: bold;
+}
+
+.membre{
+    height: 14%;
+    width: 7%;
+    position: absolute;
+    top: 15%;
+    left: 72%;
+    z-index: 1;
+    background-color: orange;
+   }
+
+.blanc4{
+    height: 14%;
+    width: 17%;
+    position: absolute;
+    background-color: white;
+    top: 15%;
+    left: 79%;
+    z-index: 2;
+}
+
+.new{
+    position: absolute;
+    top: 14%;
+    left: 80%;
+    z-index: 3;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+.chiffre2{
+    position: absolute;
+    top: 17%;
+    left: 80%;
+    z-index: 3;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-weight: bold;
+}
+
+/* ---------------------------------------------------------------------------------------------- */
+
+.bordure{
+    height: 400px;
+    width: 96%;
+    margin-top: 17%;
+    margin-left: 2%;
+    border: 2px solid rgb(114, 113, 113);
+    background-color: white;
+}
+
+.graphique{
+    height: 300px;
+    width: 950px;
+    margin-top: 50px;
+    margin-left: 2px;
+}
+
+.rapport{
+    position:absolute;
+    top: 38%;
+    left: 20%;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.moyenne{
+    position:absolute;
+    top: 86%;
+    left: 20%;
+    color: rgb(196, 167, 7);
+}
+
+.total{
+    position:absolute;
+    top: 86%;
+    left: 40%;
+    color: rgb(153, 255, 0);
+}
+
+.realisation{
+    position:absolute;
+    top: 45%;
+    left: 1225px;
+    font-weight: bold;
+    
+}
+
+.barrebleu{
+    height: 10px;
+    width: 250px;
+    margin-bottom: -30px;
+    background-color: blue;
+}
+
+.cv{
+    margin-bottom: 0px;
+}
+
+.objectif1{
+    margin-left: 260px;
+}
+
+.barre1{
+    position: absolute;
+    top: 50%;
+    left: 75%;
+}
+
+.barrerouge{
+    height: 10px;
+    width: 250px;
+    margin-bottom: -30px;
+    background-color: red;
+}
+
+.site{
+    margin-bottom: 0px;
+}
+
+.objectif2{
+    margin-left: 260px;
+}
+
+.barre2{
+    position: absolute;
+    top: 55%;
+    left: 75%;
+}
+
+
+
+.barrejaune{
+    height: 10px;
+    width: 250px;
+    margin-bottom: -30px;
+    background-color: rgb(229, 255, 0);
+}
+
+.question{
+    margin-bottom: 0px;
+}
+
+.objectif3{
+    margin-left: 260px;
+}
+
+.barre3{
+    position: absolute;
+    top: 60%;
+    left: 75%;
+}
+
+.derniercv{
+    margin-top: 50px;
+    margin-left: 20px;
+    height: 400px;
+    width: 1000px;
+    border: 2px solid black;
+    background-color: white
+}
+
+.titrederniercv{
+    font-size: 1.2em;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.pseudos{
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.modele{
+    margin-left: 300px;
+    margin-top: -35px;
+    font-weight: bold;
+}
+
+.statut{
+    margin-left: 600px;
+    margin-top: -35px;
+    font-weight: bold;
+}
+
+.pop{
+    margin-left: 900px;
+    margin-top: -35px;
+    font-weight: bold;
+}
+
+.voircv{
+    margin-top: 290px;
+    margin-left: 880px;
+}
+

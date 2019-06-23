@@ -1,0 +1,93 @@
+.form_home{
+    padding: 10px;
+    width: 400px;
+    height: 150px;
+    border: solid 1px white;
+    background-color: rgb(53, 53, 53);
+    position: absolute;
+    top : 30%;
+    left: -500px;
+}
+
+.input_form input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    margin-bottom: 5px;
+}
+
+.img_form{
+    border: 2px solid white;
+    background-color: red;
+}
+
+.submit_form{
+    border: 1px solid white;
+    color: white;
+    background-color: rgb(32, 51, 22);
+    cursor: pointer;
+    text-align: center;
+}
+
+
+.form_about .display_form{
+    text-align: center;
+}
+.form_about{
+    width: 450px;
+    height: 190px;
+    border: solid 1px white;
+    background-color: rgb(53, 53, 53);
+    position: absolute;
+    top : 47%;
+    left: -500px;
+    margin: auto;
+}
+.form_project{
+    width: 400px;
+    height: 140px;
+    border: solid 1px white;
+    background-color: rgb(53, 53, 53);
+    position: absolute;
+    top : 64%;
+    left: -500px;
+}
+
+
+input{
+    margin: 5px;
+    color: white;
+}
+
+.display_form{
+    left: 120px;
+}
+
+.img_form{
+    width: 100%;
+}
+
+/* blurring = flou */
+.blurring{
+    filter : blur(5px);
+}
+
+
+
+@media screen and (max-width:630px){
+    .form_home{
+        width: 300px;
+    }
+    .form_about{
+        width: 300px;
+    }
+    .form_project{
+        width: 300px;
+    }
+    .form_contact{
+        width: 300px;
+    }
+    input{
+        width: 150px;
+    }
+}
